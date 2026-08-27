@@ -7,3 +7,16 @@
 //
 // Escreva sua solução abaixo:
 
+function calcularDesconto(preco, desconto) {
+    // const valorDesconto = preco * (desconto/100);
+    // const precoFinal = preco - valorDesconto;
+    // return precoFinal;
+    // ==========================================
+    // const precoFinal = preco - (preco * (desconto/100));
+    // return precoFinal;
+    // ==========================================
+    return preco - (preco * (desconto/100));
+}
+
+const resultado = calcularDesconto(200, 10);
+console.log(`Preço final: ${resultado}`);

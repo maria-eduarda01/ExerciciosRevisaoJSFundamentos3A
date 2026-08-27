@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+const estoque = [5, 3, 0, 8, 2];
+
+const semEstoque = estoque.some(quantidade => quantidade === 0);
+
+console.log(semEstoque);

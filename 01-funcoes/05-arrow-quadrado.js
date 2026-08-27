@@ -4,3 +4,8 @@
 //
 // Escreva sua solução abaixo:
 
+// Escreva sua solução abaixo:
+const calcularQuadrado = numero => numero * numero;
+
+// Teste a função com o número 8
+console.log("O quadrado de 8 é:", calcularQuadrado(8));

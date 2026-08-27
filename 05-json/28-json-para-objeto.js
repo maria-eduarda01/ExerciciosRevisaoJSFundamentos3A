@@ -4,3 +4,8 @@
 //
 // Escreva sua solução abaixo:
 
+const produtoJSON = '{"nome":"Notebook","preco":3500,"estoque":8}';
+
+const produto = JSON.parse(produtoJSON);
+
+console.log(produto.nome);

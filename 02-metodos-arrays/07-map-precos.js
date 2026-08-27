@@ -5,3 +5,13 @@
 //
 // Escreva sua solução abaixo:
 
+// Escreva sua solução abaixo:
+// Escreva sua solução abaixo:
+// Escreva sua solução abaixo:
+
+const precos = [50, 100, 150, 200];
+
+const novosPrecos = precos.map(preco => preco * 1.10);
+
+console.log("Array original:", precos);
+console.log("Array com aumento de 10%:", novosPrecos);

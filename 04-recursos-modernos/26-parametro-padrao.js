@@ -5,3 +5,9 @@
 //
 // Escreva sua solução abaixo:
 
+function saudacao(nome, periodo = "dia") {
+    return `Olá, ${nome}! Bom ${periodo}!`;
+}
+
+console.log(saudacao("Duda", "dia"));
+console.log(saudacao("Maria"));

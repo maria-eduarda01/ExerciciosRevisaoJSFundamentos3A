@@ -5,3 +5,34 @@
 //
 // Escreva sua solução abaixo:
 
+class ContaBancaria {
+    #saldo;
+
+    constructor(saldoInicial = 0) {
+        this.#saldo = saldoInicial;
+    }
+
+    depositar(valor) {
+        this.#saldo += valor;
+    }
+
+    sacar(valor) {
+        if (valor <= this.#saldo) {
+            this.#saldo -= valor;
+            console.log("Saque realizado com sucesso!");
+        } else {
+            console.log("Saldo insuficiente!");
+        }
+    }
+
+    consultarSaldo() {
+        return this.#saldo;
+    }
+}
+
+const conta = new ContaBancaria(1000);
+
+conta.depositar(500);
+conta.sacar(300);
+
+console.log("Saldo atual: R$ " + conta.consultarSaldo().toFixed(2));

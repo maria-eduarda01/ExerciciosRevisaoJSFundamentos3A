@@ -5,3 +5,18 @@
 //
 // Escreva sua solução abaixo:
 
+const produto = {
+    nome: "Notebook",
+    preco: 2500,
+    estoque: 10
+};
+
+console.log("Antes:", produto);
+
+// Alterando o preço
+produto.preco = 2300;
+
+// Diminuindo uma unidade do estoque
+produto.estoque--;
+
+console.log("Depois:", produto);

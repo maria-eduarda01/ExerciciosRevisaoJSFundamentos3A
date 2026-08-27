@@ -5,3 +5,10 @@
 //
 // Escreva sua solução abaixo:
 
+// Escreva sua solução abaixo:
+const converterTemperatura = function(celsius) {
+    return celsius * 1.8 + 32;
+};
+
+// Testando a função com 25°C e mostrando no console
+console.log("Temperatura em Fahrenheit:", converterTemperatura(25)); 

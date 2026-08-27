@@ -4,3 +4,11 @@
 //
 // Escreva sua solução abaixo:
 
+const livro = {
+    titulo: "O Pequeno Príncipe",
+    autor: "Antoine de Saint-Exupéry",
+    ano: 1943,
+    disponivel: true
+};
+
+console.log(livro);

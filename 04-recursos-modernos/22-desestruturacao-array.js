@@ -5,3 +5,10 @@
 //
 // Escreva sua solução abaixo:
 
+const cores = ["Lilás", "Roxo", "Branco"];
+
+const [cor1, cor2, cor3] = cores;
+
+console.log(cor1);
+console.log(cor2);
+console.log(cor3);

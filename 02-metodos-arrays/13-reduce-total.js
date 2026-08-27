@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+const valores = [29.90, 15.50, 40, 10];
+
+const total = valores.reduce((soma, valor) => soma + valor, 0);
+
+console.log("Total do pedido: R$ " + total.toFixed(2));

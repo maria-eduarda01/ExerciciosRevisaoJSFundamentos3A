@@ -6,3 +6,29 @@
 //
 // Escreva sua solução abaixo:
 
+class Animal {
+    emitirSom() {
+        return "O animal emitiu um som.";
+    }
+}
+
+class Cachorro extends Animal {
+    emitirSom() {
+        return "Au au!";
+    }
+}
+
+class Gato extends Animal {
+    emitirSom() {
+        return "Miau!";
+    }
+}
+
+const animais = [
+    new Cachorro(),
+    new Gato()
+];
+
+animais.forEach(animal => {
+    console.log(animal.emitirSom());
+});

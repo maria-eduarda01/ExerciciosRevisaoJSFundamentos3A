@@ -4,3 +4,10 @@
 //
 // Escreva sua solução abaixo:
 
+const frontEnd = ["HTML", "CSS", "JavaScript"];
+const backEnd = ["Node.js", "Python", "Java"];
+
+const tecnologias = [...frontEnd, ...backEnd];
+
+console.log(tecnologias);
+

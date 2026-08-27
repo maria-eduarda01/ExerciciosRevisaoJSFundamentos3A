@@ -6,3 +6,29 @@
 //
 // Escreva sua solução abaixo:
 
+const resposta = {
+    sucesso: true,
+    mensagem: "Produtos recebidos com sucesso!",
+    dados: [
+        {
+            nome: "Notebook",
+            preco: 3500
+        },
+        {
+            nome: "Mouse",
+            preco: 80
+        }
+    ]
+};
+
+// Converte o objeto para JSON
+const respostaJSON = JSON.stringify(resposta);
+
+// Converte o JSON novamente para objeto
+const respostaObjeto = JSON.parse(respostaJSON);
+
+// Mostra a mensagem
+console.log(respostaObjeto.mensagem);
+
+// Mostra os produtos recebidos
+console.log(respostaObjeto.dados);

@@ -4,3 +4,9 @@
 //
 // Escreva sua solução abaixo:
 
+const notas = [4, 7, 8, 5, 9, 6, 10];
+
+const notasMaioresQue6 = notas.filter(nota => nota > 6);
+
+console.log("Notas originais:", notas);
+console.log("Notas maiores que 6:", notasMaioresQue6);
